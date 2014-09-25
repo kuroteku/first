@@ -28,6 +28,7 @@ export GEM_HOME
 GEM_PATH=/usr/lib64/fluent/ruby/lib/ruby/gems/1.9.1
 export GEM_PATH
 alias sd='sudo -H -s'
+alias push='git push https://kuroteku@github.com/kuroteku/first.git'
 
 _src_etc_profile_d()
 {
