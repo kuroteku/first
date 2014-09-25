@@ -1,0 +1,258 @@
+# この viminfo ファイルは Vim 7.2 によって生成されました.
+# 変更する際には十分注意してください!
+
+# このファイルが書かれた時の 'encoding' の値
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~H
+# 最後の 検索パターン:
+~MSle0~/SetEnv
+
+# 最後に置換された文字列:
+$
+
+# コマンドライン 項目の履歴 (新しいものから古いものへ):
+:wq
+:q
+:'<,'>q
+:wq!
+:!echo $PATH
+:q!
+:!
+
+# 検索文字列 項目の履歴 (新しいものから古いものへ):
+?/SetEnv
+?/PATH
+? ^\d\{3}ÿ
+
+# 式 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# 入力行 項目の履歴 (新しいものから古いものへ):
+
+# レジスタ:
+"0	LINE	0
+	[branch "develop"]
+		remote = origin
+		merge = refs/heads/develop
+""1	LINE	0
+	396
+<10.2.104.222 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAqCr1p7ds3goOp1A0p0r6j304Y9XxsBGihLWxCHFHX2iNw/chrJNaChUe/pKNK0K59RXRYXfIAB1pgpsnjb/6AQOdn+OJ6g0+GQjOpILG0gwDjQqz8oxxX85b5KhKekodtIQw/tfF8PZ5dlSJjcYrSQ7dRnpPYseK3IRW1jDhwgir/IuDFAZGSg5yBZu1sdLXFWii3lyu3JqleuTlvmbaVYfg4S8HQ4pO8hnBw9JjsVeqqGdVQJNAcgVI5qSBjLUdo+owg5hTYIMPkcRMz7LTLhYZRgaBPVfnmeQovReddkvjvnyVxqU3Jzq4784Z4b444BJHGLGnEwmcuT0yBxDkdw==
+"2	LINE	0
+	396
+<10.2.104.221 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEApnbg6kiAiz/JxV7oJ0q6GR2FpDO7RuctvSj+td9jzt3EBB8I4gC9kDClaA1BJ9dClaJ5Ge/wc5WwkO/A88izs6/1GFaWAGqlpD+dByDzBH0PuHbWJ88MwBoF94vazQ1k6SXf2Kv4Ta/bjyDCd+f+o6D47Wx1wTULpqSQMru55twgCYUQXAHbDXxR14NtKlR4G969onWN7ikCZwsHvm9pnZwyhpVppJEs2u+nH1gzJs1philB+/qLdWY3cShKyxGdre58l0a76oBmd/NSeVOrN05ztrdHlBbXndzABLKYabOdl1nQAN8T8kb+jCJDnrgYMRyjkNzUSbWgNgiJouva3Q==
+"3	LINE	0
+	396
+<10.2.104.227 ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAmh0fVaaJES3hXwv3vLVg7SfBAE9ZfU080OgvV9UY/FviXtBXPjJD6n66NOBGl/vI5P7aUvCQVpbSYx38oTwt+HCqIIbqc7aiF5G3twZlerFJBcLqM67y8bbSpiin9PmnF8Oa2ep+zyOKysDRRn+mjshFji1uRwEyqqjeLWcLzJGdNpxxjgrmYSDO4aNpVvj2MmsmkTpgr874oPDkPhhPdV/iPgznJJDsaqgBlI3Hmu8Ym/bmJZlkFOmpZuT6p7UWc69Hz6VClcE1iRDtCSK2Qp4XeN7r1f6njn7a3dEmZQjzt+WtTTFpQ/9tgLzuGSnG828w3pdQ3XfDoX4G4h/Mrw==
+"4	LINE	0
+		merge = refs/heads/develop
+"5	LINE	0
+		remote = origin
+"6	LINE	0
+	
+"-	CHAR	0
+	!
+
+# ファイルマーク:
+'0  1  0  ~/.ssh/known_hosts
+'1  1  0  ~/.ssh/authorized_keys
+'2  1  0  /usr/local/apache2/conf/extra/vhost/tomcat-proxy.conf
+'3  1  0  /usr/local/apache2/conf/extra/vhost/www.test.com.conf
+'4  2  0  /usr/local/apache2/conf/httpd.conf
+'5  1  0  /etc/nginx/conf.d/00-unknownvhost.conf
+'6  1  0  /etc/nginx/conf.d/www.three.com.conf
+'7  75988  0  /var/log/td-agent/td-agent.log-20140715
+'8  25  0  /var/log/td-agent/td-agent.log-20140528.gz
+'9  57  0  /var/log/td-agent/td-agent.log-20140524.gz
+
+# ジャンプリスト (新しいものが先):
+-'  1  0  ~/.ssh/known_hosts
+-'  1  0  ~/.ssh/authorized_keys
+-'  1  0  /usr/local/apache2/conf/extra/vhost/tomcat-proxy.conf
+-'  1  0  /usr/local/apache2/conf/extra/vhost/www.test.com.conf
+-'  2  0  /usr/local/apache2/conf/httpd.conf
+-'  1  0  /usr/local/apache2/conf/httpd.conf
+-'  1  0  /etc/nginx/conf.d/00-unknownvhost.conf
+-'  1  0  /etc/nginx/conf.d/www.three.com.conf
+-'  75988  0  /var/log/td-agent/td-agent.log-20140715
+-'  1  0  /var/log/td-agent/td-agent.log-20140715
+-'  25  0  /var/log/td-agent/td-agent.log-20140528.gz
+-'  1  0  /var/log/td-agent/td-agent.log-20140528.gz
+-'  57  0  /var/log/td-agent/td-agent.log-20140524.gz
+-'  2  0  /var/log/td-agent/td-agent.log-20140524.gz
+-'  1  0  /var/log/td-agent/td-agent.log-20140524.gz
+-'  1021  2  /var/log/td-agent/td-agent.log
+-'  1  0  /var/log/td-agent/td-agent.log
+-'  1  0  ~/.ssh/config
+-'  111  2  /etc/td-agent/td-agent.conf
+-'  110  2  /etc/td-agent/td-agent.conf
+-'  26  0  ~/.zshrc
+-'  21  0  ~/.zshrc
+-'  27  0  ~/.zshrc
+-'  19  0  ~/.zshrc
+-'  1  0  /etc/td-agent/.zshrc
+-'  1  0  /etc/ntp.conf
+-'  1  0  /etc/td-agent/td-agent.conf
+-'  1  0  ~/.ssh/id_rsa.pub
+-'  1  0  ~/.ssh/id_rsa
+-'  14  28  ~/kuroteku/.git/config
+-'  9  1  ~/kuroteku/.git/config
+-'  12  0  ~/.zshrc
+-'  4  5  ~/kuroteku/nemunemu.txt
+-'  1  0  ~/kuroteku/nemunemu.txt
+-'  12  1  ~/kuroteku/.git/config
+-'  1  0  ~/kuroteku/staging/staging.txt
+-'  1  0  ~/kuroteku/.git/config
+-'  4  3  ~/kuroteku/test/test3
+-'  9  0  ~/kuroteku/test
+-'  1  0  ~/kuroteku/test
+-'  8  0  ~/kuroteku/test
+-'  4  0  /etc/motd
+-'  1  0  /etc/motd
+-'  3  6  ~/kuroteku/aiueo.txt
+-'  1  0  ~/kuroteku/aiueo.txt
+-'  1  0  ~/.zshrc
+-'  3  6  ~/kuroteku/aiueo.txt
+-'  1  0  ~/kuroteku/aiueo.txt
+-'  3  6  ~/kuroteku/aiueo.txt
+-'  1  0  ~/kuroteku/aiueo.txt
+-'  3  6  ~/kuroteku/aiueo.txt
+-'  1  0  ~/kuroteku/aiueo.txt
+-'  4  0  /etc/motd
+-'  1  0  /etc/motd
+-'  3  6  ~/kuroteku/aiueo.txt
+-'  1  0  ~/kuroteku/aiueo.txt
+-'  3  6  ~/kuroteku/aiueo.txt
+-'  1  0  ~/kuroteku/aiueo.txt
+-'  3  6  ~/kuroteku/aiueo.txt
+-'  1  0  ~/kuroteku/aiueo.txt
+-'  4  5  ~/kuroteku/nemunemu.txt
+-'  1  0  ~/kuroteku/nemunemu.txt
+-'  1  0  ~/kuroteku/staging/staging.txt
+-'  4  3  ~/kuroteku/test/test3
+-'  9  0  ~/kuroteku/test
+-'  1  0  ~/kuroteku/test
+-'  8  0  ~/kuroteku/test
+-'  4  0  /etc/motd
+-'  1  0  /etc/motd
+-'  3  6  ~/kuroteku/aiueo.txt
+-'  1  0  ~/kuroteku/aiueo.txt
+-'  3  6  ~/kuroteku/aiueo.txt
+-'  1  0  ~/kuroteku/aiueo.txt
+-'  3  6  ~/kuroteku/aiueo.txt
+-'  1  0  ~/kuroteku/aiueo.txt
+-'  3  6  ~/kuroteku/aiueo.txt
+-'  1  0  ~/kuroteku/aiueo.txt
+-'  4  0  /etc/motd
+-'  1  0  /etc/motd
+-'  3  6  ~/kuroteku/aiueo.txt
+-'  1  0  ~/kuroteku/aiueo.txt
+-'  3  6  ~/kuroteku/aiueo.txt
+-'  1  0  ~/kuroteku/aiueo.txt
+-'  3  6  ~/kuroteku/aiueo.txt
+-'  1  0  ~/kuroteku/aiueo.txt
+-'  14  28  ~/kuroteku/.git/config
+-'  9  1  ~/kuroteku/.git/config
+-'  4  5  ~/kuroteku/nemunemu.txt
+-'  1  0  ~/kuroteku/nemunemu.txt
+-'  12  1  ~/kuroteku/.git/config
+-'  1  0  ~/kuroteku/staging/staging.txt
+-'  1  0  ~/.ssh/id_rsa.pub
+-'  1  0  ~/.ssh/id_rsa
+-'  14  28  ~/kuroteku/.git/config
+-'  9  1  ~/kuroteku/.git/config
+-'  4  5  ~/kuroteku/nemunemu.txt
+-'  1  0  ~/kuroteku/nemunemu.txt
+-'  12  1  ~/kuroteku/.git/config
+-'  1  0  ~/.ssh/authorized_keys
+
+# ファイル内マークの履歴 (新しいものから古いもの):
+
+> ~/.ssh/known_hosts
+	"	1	0
+	.	1	0
+	+	1	0
+
+> ~/.ssh/authorized_keys
+	"	1	0
+
+> /usr/local/apache2/conf/extra/vhost/tomcat-proxy.conf
+	"	1	0
+
+> /usr/local/apache2/conf/extra/vhost/www.test.com.conf
+	"	1	0
+
+> /usr/local/apache2/conf/httpd.conf
+	"	2	0
+
+> /etc/nginx/conf.d/00-unknownvhost.conf
+	"	1	0
+
+> /etc/nginx/conf.d/www.three.com.conf
+	"	1	0
+
+> /var/log/td-agent/td-agent.log-20140715
+	"	75988	0
+
+> /var/log/td-agent/td-agent.log-20140528.gz
+	"	25	0
+	.	735	0
+	+	735	0
+
+> /var/log/td-agent/td-agent.log-20140524.gz
+	"	57	0
+	.	58	0
+	+	58	0
+	+	58	0
+
+> /var/log/td-agent/td-agent.log
+	"	1021	2
+
+> ~/.ssh/config
+	"	1	0
+
+> /etc/td-agent/td-agent.conf
+	"	111	2
+
+> ~/.zshrc
+	"	26	0
+	^	26	15
+	.	26	14
+	+	12	11
+	+	18	6
+	+	19	11
+	+	27	20
+	+	20	107
+	+	21	10
+	+	26	14
+
+> /etc/td-agent/.zshrc
+	"	1	0
+
+> /etc/ntp.conf
+	"	1	0
+
+> ~/.ssh/id_rsa.pub
+	"	1	0
+
+> ~/.ssh/id_rsa
+	"	1	0
+
+> ~/kuroteku/.git/config
+	"	14	28
+	^	14	29
+	.	14	28
+	+	9	0
+	+	8	1
+	+	9	16
+	+	13	4
+	+	15	0
+	+	14	28
+
+> ~/kuroteku/nemunemu.txt
+	"	4	5
+	.	4	1
+	+	4	1
