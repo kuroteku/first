@@ -1,0 +1,10 @@
+To start github management
+
+First Your SSH Public Keys need to send to me
+Next  My Repository cloning
+ Follow command 	git clone https://github.com/kuroteku/first.git
+
+Finish
+
+
+
