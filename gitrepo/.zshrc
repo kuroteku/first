@@ -13,28 +13,34 @@ RPROMPT='[%T]'     # prompt for right side of screen
 
 # bindkey -v             # vi key bindings
 # bindkey -e             # emacs key bindings
-bindkey ' ' magic-space  # also do history expansion on space
+#bindkey ' ' magic-space  # also do history expansion on space
 
-PROXY="http://202.238.181.254:8080"
-export PROXY
-PATH=/usr/local/bin:/bin:/usr/bin:/home/taka/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/lib64/fluent/ruby/bin
+alias vi='vim'
+alias ac='apachectl configtest'
+alias ar='service httpd reload'
+alias nc='service nginx configtest'
+alias push='git push https://kuroteku@github.com/kuroteku/first.git'
+
+PATH=/sbin:/bin:/usr/sbin:/usr/bin:/usr/lib64/fluent/ruby/bin:/usr/local/mongodb/bin/:/usr/local/apache2/sbin/:/usr/local/apache2/bin:/usr/local/bin/:/usr/local/sbin/
 export PATH
 
-MONGOPATH=/usr/local/mongodb/current
-export MONGOPATH
-
 GEM_HOME=/usr/lib64/fluent/ruby/lib/ruby/gems/1.9.1
-export GEM_HOME
 GEM_PATH=/usr/lib64/fluent/ruby/lib/ruby/gems/1.9.1
+export GEM_HOME
 export GEM_PATH
-alias sd='sudo -H -s'
-alias push='git push https://kuroteku@github.com/kuroteku/first.git'
+
+CATALINA_HOME=/usr/local/tomcat
+export CATALINA_HOME
+JRE_HOME=/usr/java/jre
+JAVA_HOME=/usr/java/
+export JRE_HOME
+
 
 _src_etc_profile_d()
 {
     #  Make the *.sh things happier, and have possible ~/.zshenv options like
     # NOMATCH ignored.
-    emulate -L ksh
+#    emulate -L ksh
 
 
     # from bashrc, with zsh fixes
