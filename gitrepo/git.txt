@@ -5,3 +5,10 @@ Next  My Repository cloning
  Follow command 	git clone https://github.com/kuroteku/first.git
 
 Finish
+
+
+TO Change Repository
+
+First git clone https://github.com/kuroteku/first.git
+Second git status
+
