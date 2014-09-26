@@ -5,6 +5,3 @@ Next  My Repository cloning
  Follow command 	git clone https://github.com/kuroteku/first.git
 
 Finish
-
-
-
