@@ -7,8 +7,9 @@ Next  My Repository cloning
 Finish
 
 
-TO Change Repository
+To Change Repository
 
 First git clone https://github.com/kuroteku/first.git
 Second git status
 
+To
