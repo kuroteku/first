@@ -15,8 +15,6 @@ RPROMPT='[%T]'     # prompt for right side of screen
 # bindkey -e             # emacs key bindings
 bindkey ' ' magic-space  # also do history expansion on space
 
-PROXY="http://202.238.181.254:8080"
-export PROXY
 PATH=/usr/local/bin:/bin:/usr/bin:/home/taka/bin:/usr/local/sbin:/usr/sbin:/sbin:/usr/lib64/fluent/ruby/bin
 export PATH
 
