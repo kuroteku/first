@@ -1,0 +1,10 @@
+- hosts: vcenter
+  gather_facts: false
+  connection: local
+  user: root
+
+  tasks:
+    - name: vcsadeploy from template
+      template: src=/etc/ansible/role/templates/embedded_vCSA_on_VC.json.j2 dest=/root/vcsa-cli-installer/templates/install/embedded_vCSA_on_VC.json
+    - name: vcsadeploy
+      command: /root/vcsa-cli-installer/lin64/vcsa-deploy install /root/vcsa-cli-installer/templates/install/embedded_vCSA_on_VC.json --accept-eula --no-esx-ssl-verify

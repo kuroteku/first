@@ -1,0 +1,17 @@
+- hosts: ESXI
+  gather_facts: false
+  connection: local
+  user: root
+
+  tasks:
+    - vsphere_guest:
+        vcenter_hostname: 192.168.0.160
+        username: administrator@vsphere.local
+        password: P@ssw0rd
+        from_template: yes
+        template_src: ansible-tmpl
+        guest: testserver
+        cluster: iino-cluster 
+        esxi:
+          datacenter: iinoDC
+          hostname: 192.168.0.55

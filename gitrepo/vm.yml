@@ -1,0 +1,5 @@
+esx_hostname: localhost.localdomain
+esx_ipaddr: 192.168.0.54
+esx_user: root 
+esx_password: P@ssw0rd
+datastore_name: datastore1
